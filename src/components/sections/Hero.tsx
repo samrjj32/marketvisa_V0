@@ -1,8 +1,7 @@
 'use client';
 import React from 'react';
 import Image from 'next/image';
-import { FaClock, FaCalendar, FaLanguage,FaClipboardCheck, FaVideo } from 'react-icons/fa';
-import { WiDaySunny } from 'react-icons/wi';
+import { FaClock, FaCalendar, FaLanguage, FaVideo } from 'react-icons/fa';
 import WhyChooseUs from './WhyChooseUs';
 
 export default function Hero() {
@@ -98,21 +97,21 @@ export default function Hero() {
             </div>
 
             {/* Event Details Grid */}
-            <div className="grid grid-cols-2 md:grid-cols-5 gap-4 mb-8">
-              <div className="text-center p-4 bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow">
-                <FaCalendar className="w-6 h-6 text-[#00D066] mx-auto mb-2" />
-                <p className="font-semibold">Date</p>
-                <p className="text-gray-600">30th March</p>
-              </div>
-              <div className="text-center p-4 bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow">
-                <FaClipboardCheck className="w-6 h-6 text-[#00D066] mx-auto mb-2" />
-                <p className="font-semibold">DAY</p>
-                <p className="text-gray-600">Sunday</p>
-              </div>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
+            <div className="text-center p-3 bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow">
+  <FaCalendar className="w-5 h-5 text-[#00D066] mx-auto mb-1" />
+  <p className="font-semibold">Date</p>
+  <p className="text-gray-600">30th March</p>
+  <p className="mt-1 text-white bg-[#00D066] text-xs font-semibold px-2 py-0.5 rounded-full inline-flex">
+    Sunday
+  </p>
+</div>
+
               <div className="text-center p-4 bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow">
                 <FaClock className="w-6 h-6 text-[#00D066] mx-auto mb-2" />
                 <p className="font-semibold">Time</p>
                 <p className="text-gray-600">11:00 AM</p>
+       
               </div>
               <div className="text-center p-4 bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow">
                 <FaLanguage className="w-6 h-6 text-[#00D066] mx-auto mb-2" />
