@@ -100,7 +100,7 @@ export default function Courses() {
 
       
   const handlePayment = () => {
-    window.open('https://rzp.io/rzp/JNgWo5N', '_blank');
+    window.open('https://rzp.io/rzp/f4fr8Psm', '_blank');
   };
 
 
