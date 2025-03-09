@@ -1,5 +1,5 @@
 'use client';
-import { FaChartLine, FaUserGraduate, FaHandshake, FaAward } from 'react-icons/fa';
+import { FaChartLine, FaUserGraduate,FaHandshake, FaAward } from 'react-icons/fa';
 
 const achievements = [
   {
@@ -7,11 +7,6 @@ const achievements = [
     title: "7+ Years Experience",
     description: "Extensive expertise in investing and trading in Indian markets"
   },
-  // {
-  //   icon: FaUserGraduate,
-  //   title: "AMFI Registered",
-  //   description: "Certified Mutual Fund Advisor with deep understanding of market dynamics"
-  // },
   {
     icon: FaHandshake,
     title: "1000+ Satisfied Clients",

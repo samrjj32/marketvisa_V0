@@ -1,7 +1,8 @@
 'use client';
 import React from 'react';
 import Image from 'next/image';
-import { FaClock, FaCalendar, FaLanguage, FaVideo } from 'react-icons/fa';
+import { FaClock, FaCalendar, FaLanguage,FaClipboardCheck, FaVideo } from 'react-icons/fa';
+import { WiDaySunny } from 'react-icons/wi';
 import WhyChooseUs from './WhyChooseUs';
 
 export default function Hero() {
@@ -69,6 +70,12 @@ export default function Hero() {
                       <div className="flex items-center gap-2">
                         <div className="w-1 h-1 bg-[#00D066] rounded-full"></div>
                         <p className="text-xs sm:text-sm text-gray-600">Co-founder of Marketvisa</p>
+                    
+                      </div>
+                      <div className="flex items-center gap-2">
+                       
+                        <div className="w-1 h-1 bg-[#00D066] rounded-full"></div>
+                        <p className="text-xs sm:text-sm text-gray-600"> SEBI Certified Investor</p>
                       </div>
                       
                     </div>
@@ -91,11 +98,16 @@ export default function Hero() {
             </div>
 
             {/* Event Details Grid */}
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
+            <div className="grid grid-cols-2 md:grid-cols-5 gap-4 mb-8">
               <div className="text-center p-4 bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow">
                 <FaCalendar className="w-6 h-6 text-[#00D066] mx-auto mb-2" />
                 <p className="font-semibold">Date</p>
                 <p className="text-gray-600">30th March</p>
+              </div>
+              <div className="text-center p-4 bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow">
+                <FaClipboardCheck className="w-6 h-6 text-[#00D066] mx-auto mb-2" />
+                <p className="font-semibold">DAY</p>
+                <p className="text-gray-600">Sunday</p>
               </div>
               <div className="text-center p-4 bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow">
                 <FaClock className="w-6 h-6 text-[#00D066] mx-auto mb-2" />
@@ -113,18 +125,11 @@ export default function Hero() {
                 <p className="text-gray-600">Live on Zoom</p>
               </div>
             </div>
-                 <WhyChooseUs />
-
-
-            {/* Price and CTA Section */}
-            <div className="bg-white p-8 rounded-xl shadow-lg">
-              
-            </div>
+             
           </div>
         </div>
+        <WhyChooseUs />
       </section>
-
-     
     </>
   );
 } 
