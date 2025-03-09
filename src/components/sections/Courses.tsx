@@ -48,7 +48,7 @@ const learningOutcomes = [
     points: [
       'How to achieve your financial goals through mutual fund investing',
       'How to leverage SIP, SWP, and STP in mutual funds',
-      "How does compounding help to double your returns",
+      "How does compounding help to double your returns",
       'How to avoid common mistakes while investing in mutual funds'
     ]
   }
@@ -87,22 +87,9 @@ const learningModules = [
 ];
 
 export default function Courses() {
-  const [showModal, setShowModal] = useState(false);
-  const [isLoading, setIsLoading] = useState(false);
-  const [error, setError] = useState<string>('');
-  const [userDetails, setUserDetails] = useState<null | {
-    name: string;
-    email: string;
-    phone: string;
-    userId: string;
-  }>(null);
-
-
-      
   const handlePayment = () => {
     window.open('https://rzp.io/rzp/f4fr8Psm', '_blank');
   };
-
 
   return (
     <>
