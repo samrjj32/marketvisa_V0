@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@types/nodemailer": "^6.4.17",
+    "@vercel/analytics": "^1.5.0",
     "lucide-react": "^0.479.0",
     "mongodb": "^6.14.2",
     "next": "15.2.1",
