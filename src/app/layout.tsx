@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     siteName: 'MarketVisa',
     images: [
       {
-        url: '/mentor4.png',  // 1200x630px image
+        url: '/avatarImages/mentor4.png',  // 1200x630px image
         width: 1200,
         height: 630,
         alt: 'MarketVisa Preview',
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'MarketVisa',
     description: 'Transform your financial future with expert-led courses',
-    images: ['/mentor4.png'],
+    images: ['/avatarImages/mentor4.png'],
   },
   other: {
     'whatsapp-catalog-message': 'Transform your financial future with expert-led courses'
