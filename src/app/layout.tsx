@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     siteName: 'MarketVisa',
     images: [
       {
-        url: '/og-image.jpg',  // 1200x630px image
+        url: '/mentor4.png',  // 1200x630px image
         width: 1200,
         height: 630,
         alt: 'MarketVisa Preview',
@@ -28,14 +28,12 @@ export const metadata: Metadata = {
     type: 'website',
   },
   // Optional specific platform customizations
-  facebook: {
-    appId: 'your-fb-app-id', // if you have one
-  },
+ 
   twitter: {
     card: 'summary_large_image',
     title: 'MarketVisa',
     description: 'Transform your financial future with expert-led courses',
-    images: ['/og-image.jpg'],
+    images: ['/mentor4.png'],
   },
   other: {
     'whatsapp-catalog-message': 'Transform your financial future with expert-led courses'
