@@ -51,7 +51,7 @@ export default function Hero() {
                 <div className="relative">
                   <div className="relative w-full aspect-square max-w-[350px] sm:max-w-[450px] mx-auto">
                     <Image
-                      src="/avatarImages/mentor4.png"
+                      src="/avatarImages/mentor7.png"
                       alt="Nithin - Finance Educator"
                       fill
                       style={{ objectFit: 'contain' }}
