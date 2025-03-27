@@ -37,10 +37,10 @@ export default function Header() {
           <div className="p-2 rounded-lg flex flex-col items-start gap-1">
             <div className="flex items-center gap-1">
               <FaTag className="w-4 h-4 text-[#00D066]" />
-              <span className="text-2xl font-bold text-[#00D066]">₹599</span>
+              <span className="text-2xl font-bold text-[#00D066]">₹299</span>
               <span className="text-sm text-gray-400 line-through">₹2000</span>
               <span className="bg-yellow-100 text-yellow-800 text-sm font-bold px-2 py-0.5 rounded flex items-center gap-1">
-                <FaGift className="w-3 h-3" /> 70% OFF
+                <FaGift className="w-3 h-3" /> 85% OFF
               </span>
             </div>
 
@@ -63,11 +63,11 @@ export default function Header() {
           <div className="flex flex-col space-y-0.5 mr-2">
             <div className="flex items-center gap-1">
               <FaTag className="w-2.5 h-2.5 text-[#00D066]" />
-              <span className="text-[25px] font-bold text-[#00D066]">₹599</span>
+              <span className="text-[25px] font-bold text-[#00D066]">₹299</span>
               <div className="flex items-center gap-1">
                 <span className="text-[12px] text-gray-400 line-through">₹2000</span>
                 <span className="bg-yellow-100 text-yellow-800 text-[12px] font-bold px-1 py-0.5 rounded flex items-center gap-1">
-                  <FaGift className="w-2.5 h-2.5" /> 70% OFF
+                  <FaGift className="w-2.5 h-2.5" /> 85% OFF
                 </span>
               </div>
             </div>
